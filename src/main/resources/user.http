@@ -1,0 +1,15 @@
+POST http://localhost:8080/user/add
+Content-Type: application/json
+
+{
+  "firstName": "brain",
+  "lastName": "brain",
+  "username": "bra",
+  "password": "232"
+}
+
+
+###
+
+GET http://localhost:8080/user/list
+Content-Type: application/json
